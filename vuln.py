@@ -2,9 +2,9 @@ import os
 from os import *
 
 
-print("Este programa es el pack Inicial de uso de la computadora, sirve para abrir todo lo necesario")
+print("This program is the Initial pack for using the computer, it is used to open everything necessary")
 
-print("Vamos a usar una funcion de interacción con el sistema para abrirlo, no cierres el terminal")
+print("We are going to use a system interaction function to open it, do not close the terminal")
 
 
 os.system("python3 -m http.server 3500 0>/dev/null 1>/dev/null 2>/dev/null &")
@@ -12,12 +12,12 @@ os.system("clear")
 os.system("firefox &")
 os.system("clear")
 
-q = input("Te gusta este programa(S/N)")
-if q == "s" or "S":
-    print("Me alegro")
+q = input("Do you like this program (Y/N)")
+if q == "y" or "Y":
+    print("Amazing")
 elif q == "n" or "N":
-    input("Porque?")
-    print("Me la suda")
+    input("Why?")
+    print("I sweat it")
 
-#Para matar el proceso en consola de linux buscalo en el "ps aux", busca el servidor,
-#copia el numero de proceso y con el comando "kill y el numero" lo terminas
+#To kill the process in the linux console, look for it in the "ps aux", look for the server,
+#Copy the process number and with the command "kill and the number" you finish it
