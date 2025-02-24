@@ -19,5 +19,3 @@ elif q == "n" or "N":
     input("Why?")
     print("I sweat it")
 
-#To kill the process in the linux console, look for it in the "ps aux", look for the server,
-#Copy the process number and with the command "kill and the number" you finish it
