@@ -4,6 +4,7 @@
 
 ### Program:
 
+An attempt is made to hide the backdoor by simulating a program that opens Firefox.
 This script starts an HTTP server on the specified port.
 It allows you to access the files in the directory where the script is located from a web browser.
 
@@ -13,12 +14,17 @@ It allows you to access the files in the directory where the script is located f
 4. Clears the terminal screen again.
 5. Asks the user for feedback on the program.
 
-### How to use:
+### How to Use:
 
 Run the script using Python:
 ```bash
 python3 script.py
 ```
+In the browser, enter the following to access the files in the directory:
+```
+http://IP:Port
+```
+Replace IP with the host server's IP address.
 
 If you need to stop the HTTP server, follow these steps:
 1. Run `ps aux` in the terminal to find the process running on port `3500`.
@@ -30,12 +36,13 @@ If you need to stop the HTTP server, follow these steps:
 - Do not close the terminal while the script is running.
 - You must have Python 3 installed for the program to work.
 
-----------------------------------------------------------------------------------------------------
+---
 
 ## Versión en Español
 
 ### Programa:
 
+Se intenta ocultar el backdoor simulando que es un programa para abrir Firefox.
 Este script abre un servidor HTTP en el puerto establecido.
 Te permite acceder a los archivos del directorio donde se encuentra el script desde un navegador.
 
@@ -51,6 +58,11 @@ Ejecuta el script usando Python:
 ```bash
 python3 script.py
 ```
+En el navegador introduce para acceder a los archivos del directorio:
+```
+http://IP:Puerto
+```
+Sustituye IP por la IP del host servidor.
 
 Si necesitas detener el servidor HTTP, sigue estos pasos:
 1. Ejecuta `ps aux` en la terminal para encontrar el proceso en el puerto `3500`.
